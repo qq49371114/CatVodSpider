@@ -1,11 +1,6 @@
-# CatVodSpider
+# CatVodSpider(修改中）🐯🐯
 ### Based on CatVod
 https://github.com/CatVodTVOfficial/CatVodTVSpider
-
-## 广子（正经大额流量卡）
-```
-https://ym.ksjhaoka.com/?s=qaaJsQHd289860
-```
 
 ## 总览 (觉得好用就点个Star吧)
 
@@ -100,11 +95,4 @@ https://api.buxiangyao.link/tvbox/tv.txt
 > 在线观看（带字幕）需科学
 ```shell
 https://api.buxiangyao.link/jp
-```
-
-# 应用专区
-
-> 安卓app合集 你懂得 访问key => buxiangyao
-```shell
-https://wwl.lanzoue.com/b04xayf7e
 ```
