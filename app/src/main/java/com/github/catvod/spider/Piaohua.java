@@ -1,28 +1,29 @@
 package com.github.catvod.spider;
 
-import android.text.TextUtils;
-
+import com.github.catvod.bean.Class;
+import com.github.catvod.bean.Result;
+import com.github.catvod.bean.Vod;
 import com.github.catvod.crawler.Spider;
-import com.github.catvod.utils.okhttp.OkHttpUtil;
+import com.github.catvod.net.OkHttp;
+import com.github.catvod.utils.AESEncryption;
+import com.github.catvod.utils.Util;
+import com.google.gson.Gson;
+import com.google.gson.JsonObject;
 
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
-import org.json.JSONArray;
-import org.json.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import java.net.URLDecoder;
 import java.net.URLEncoder;
-import java.util.Arrays;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 
 /**
  * @author zhixc
